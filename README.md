@@ -1,6 +1,6 @@
 # Guiding LLM-based Smart Contract Generation with Finite State Machine
 
-Our **Smart-Contract-MultiTask-Dataset** is available at here: https://drive.google.com/uc?export=download&id=1PMI__bgB1TRiSdDZOvvLZlr32S9IBNZ9
+Our **Smart-Contract-Dataset** is available at here: https://drive.google.com/uc?export=download&id=1PMI__bgB1TRiSdDZOvvLZlr32S9IBNZ9
 
 ## Abstract
 Smart contract is a kind of self-executing code based on blockchain technology with a wide range of application scenarios, but the traditional generation method relies on manual coding and expert auditing, which has a high threshold and low efficiency. Although Large Language Models (LLMs) show great potential in programming tasks, they still face challenges in smart contract generation w.r.t. effectiveness and security. To solve these problems, we propose FSM-SCG, a smart contract generation framework based on finite state machine (FSM) and LLMs, which significantly improves the quality of the generated code by abstracting user requirements to generate FSM, guiding LLMs to generate smart contracts, and iteratively optimizing the code with the feedback of compilation and security checks.
